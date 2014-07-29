@@ -1,0 +1,21 @@
+##DeleteDuplicate##
+
+#Created
+data:text/html, <!DOCTYPE html><html contenteditable><head><title>Do</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><script language="JavaScript">function doScript(val){var val=val.split(/\r?\n/g).filter(compare).join("\r");document.getElementById('result').innerHTML =val;}function compare(value,index,array){  return array.indexOf(value) == index;}</script><form id="editor" action="/search" method="GET" onsubmit="doScript(this.val.value);return false;"><textarea name="val" > value</textarea><input type="submit" value="DoScript"/></form><textarea id="result">result</textarea></body></html>
+
+#javascript
+
+function doScript(val){
+var val=val.split(/\r?\n/g).filter(compare).join("\r");
+document.getElementById('result').innerHTML =val;
+}
+
+function compare(value,index,array){
+ return array.indexOf(value) == index;
+}
+
+#HTML
+<textarea id="result">result</textarea>
+
+#value
+{Text}
