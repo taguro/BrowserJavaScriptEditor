@@ -7,7 +7,7 @@ data:text/html, <!DOCTYPE html><html contenteditable><head><title>Do</title><met
 
 function doScript(val){
 var val=val.split(/\r?\n/g).filter(compare).join("\r");
-document.getElementById('result').innerHTML =val;
+document.getElementById('result').value =val;
 }
 
 function compare(value,index,array){
