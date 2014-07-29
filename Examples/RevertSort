@@ -15,7 +15,7 @@ val2=val2.split("").reverse().join("");
 
 val2=val2.split("\r").reverse().join("\r");
 
-document.getElementById('result').innerHTML =val2;
+document.getElementById('result').value =val;
 }
 
 #HTML
