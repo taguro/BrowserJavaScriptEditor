@@ -10,7 +10,7 @@ function doScript(val){
 
 val2=val.split(/\r?\n/g).sort().join("\r");
 
-document.getElementById('result').innerHTML =val2;
+document.getElementById('result').value =val;
 }
 
 #HTML
