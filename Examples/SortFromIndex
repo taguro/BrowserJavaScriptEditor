@@ -9,7 +9,7 @@ function doScript(val){
 var val=val.split(/\r?\n/g).sort(compare).join("\r");
 
 
-document.getElementById('result').innerHTML =val;
+document.getElementById('result').value =val;
 }
 
 function compare(val1, val2){
